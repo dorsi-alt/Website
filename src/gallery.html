@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="styles.css"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- NavBar Code -->
@@ -17,7 +17,8 @@
             <div class="navbar__container">
                 <a href="/" id="navbar__logo">Orsi Family</a>
                 <div class="navbar__toggle" id="mobile-menu">
-                    <span class="bar"></span> <span class="bar"></span>
+                    <span class="bar"></span> 
+                    <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
                 <ul class="navbar__menu">
@@ -28,7 +29,10 @@
                         <a href="about.html" class="navbar__links">About</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="gallery.html" class="navbar__links">Projects</a>
+                        <a href="gallery.html" class="navbar__links" style="color: #f77062">Projects</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="pictures.html" class="navbar__links">Pictures</a>
                     </li>
                     <li class="navbar__btn">
                         <a href="contact.html" class="button">Contact</a>
@@ -36,36 +40,17 @@
                 </ul>
             </div>
         </nav>
-
-        <!-- main page -->
         <div class="main">
-            <div class="main__container">
+            <div class="main__container" style="background-color: #131313;">
                 <div class="main__content">
-                    <h2>Projects<i class="fas fa-microchip"></i></h2>
-                    <h6>Spining Sphere Light Game:</h6>
-                    <button class="main__btn"><a href="http://danesbury.homelinux.com:8080/">Go To Page<i class="fas fa-arrow-right"></i></a></button>
-                    <button class="ip__btn"><a href="http://192.168.2.27:8080/">Go To Page<i class="fas fa-arrow-right"></i></a></button>
+                    <a onclick="location.href='https://www.google.com/'" class="gallety__btn"><na>go to page</na></a>
                 </div>
                 <div class="main__image--container">
-                    <img src="images/project1.JPG" alt="ball Game" id="main__img" width="500" height="330">
+
                 </div>
             </div>
         </div>
-        <div class="services">
-            <h1>see the hype</h1>
-            <div class="services__container">
-                <div class="services__card">
-                    <h2>expert bliss</h2>
-                    <p>Ai Powered</p>
-                    <button>Start</button>
-                </div>
-                <div class="services__card">
-                    <h2>Stuff</h2>
-                    <p>Other Stuff</p>
-                    <button>More Stuff</button>
-                </div>
-            </div>
-        </div>
+        <div class="services"></div>
         <script src="app.js"></script>
     </body>
 </html>
